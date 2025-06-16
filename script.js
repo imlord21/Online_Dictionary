@@ -46,4 +46,6 @@ function searchWord() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-// Asigurăm că input-ul este gol la
+    document.getElementById("add-button").addEventListener("click", addWord);
+    document.getElementById("search-button").addEventListener("click", searchWord);
+});
